@@ -12,6 +12,7 @@ import { useToast } from "@/hooks/use-toast"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import * as z from "zod"
+import { useFirebase } from "@/hooks/useFirebase";
 
 const formSchema = z.object({
   name: z.string().min(2, {
