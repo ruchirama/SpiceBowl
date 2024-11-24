@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { motion, AnimatePresence } from "framer-motion"
-import { ChevronDown, Utensils, Users, Clock, Award, Menu, X, ShoppingCart } from 'lucide-react'
+import { Utensils, Users, Clock, Award, Menu, X, ShoppingCart } from 'lucide-react'
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -160,7 +160,7 @@ export default function AboutPage() {
               <CardContent className="p-6 bg-gradient-to-br from-white to-orange-50">
                 <h2 className="text-3xl font-semibold mb-4 text-amber-800">Our Story</h2>
                 <p className="text-gray-700">
-                  Founded in 1985 by the Perera family, SpiceBowl has been serving authentic Sri Lankan cuisine for over three decades. What started as a small family-run eatery has grown into one of the city's most beloved restaurants, known for its warm hospitality and mouthwatering dishes.
+                  Founded in 1985 by the Perera family, SpiceBowl has been serving authentic Sri Lankan cuisine for over three decades. What started as a small family-run eatery has grown into one of the city&apos;s most beloved restaurants, known for its warm hospitality and mouthwatering dishes.
                 </p>
                 <p className="text-gray-700 mt-4">
                   Our recipes have been passed down through generations, preserving the true essence of Sri Lankan flavors. We take pride in using only the freshest, locally-sourced ingredients to create our signature dishes, ensuring that every bite is a journey through the rich culinary landscape of Sri Lanka.
