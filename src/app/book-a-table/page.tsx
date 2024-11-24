@@ -328,6 +328,7 @@ export default function BookATable() {
         setSubmittedBooking(bookingDetails);
         setShowForm(false);
       } catch (error) {
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         console.error('Failed to submit booking. Please try again.');
       }
     }
