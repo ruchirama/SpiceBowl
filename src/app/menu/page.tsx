@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
-import { ChevronDown, ShoppingCart, X, Minus, Plus, CreditCard, Search, Utensils, Flame, Coffee, IceCream, Sandwich } from 'lucide-react';
+import { ShoppingCart, X, Minus, Plus, CreditCard, Search, Utensils, Flame, Coffee, IceCream, Sandwich } from 'lucide-react';
 
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -13,7 +13,6 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { useToast } from "@/hooks/use-toast"
 import { Card, CardContent } from "@/components/ui/card"
-import { useFirebase } from "@/hooks/useFirebase";
 
 interface MenuItem {
   id: number;
